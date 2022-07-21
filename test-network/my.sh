@@ -12,8 +12,8 @@ export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.e
 export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 export CORE_PEER_ADDRESS=localhost:7051
 
-CORE_PEER_ADDRESS=localhost:7151 peer channel join -b channel-artifacts/mychannel.block
-CORE_PEER_ADDRESS=localhost:7251 peer channel join -b channel-artifacts/mychannel.block
+# CORE_PEER_ADDRESS=localhost:7151 peer channel join -b channel-artifacts/mychannel.block
+# CORE_PEER_ADDRESS=localhost:7251 peer channel join -b channel-artifacts/mychannel.block
 # CORE_PEER_ADDRESS=localhost:7351 peer channel join -b channel-artifacts/mychannel.block
 # CORE_PEER_ADDRESS=localhost:7451 peer channel join -b channel-artifacts/mychannel.block
 # CORE_PEER_ADDRESS=localhost:7551 peer channel join -b channel-artifacts/mychannel.block
@@ -22,8 +22,8 @@ CORE_PEER_ADDRESS=localhost:7251 peer channel join -b channel-artifacts/mychanne
 # CORE_PEER_ADDRESS=localhost:7851 peer channel join -b channel-artifacts/mychannel.block
 # CORE_PEER_ADDRESS=localhost:7951 peer channel join -b channel-artifacts/mychannel.block
 
-CORE_PEER_ADDRESS=localhost:7151 peer lifecycle chaincode install basic.tar.gz
-CORE_PEER_ADDRESS=localhost:7251 peer lifecycle chaincode install basic.tar.gz
+# CORE_PEER_ADDRESS=localhost:7151 peer lifecycle chaincode install basic.tar.gz
+# CORE_PEER_ADDRESS=localhost:7251 peer lifecycle chaincode install basic.tar.gz
 # CORE_PEER_ADDRESS=localhost:7351 peer lifecycle chaincode install basic.tar.gz
 # CORE_PEER_ADDRESS=localhost:7451 peer lifecycle chaincode install basic.tar.gz
 # CORE_PEER_ADDRESS=localhost:7551 peer lifecycle chaincode install basic.tar.gz
